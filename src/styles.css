@@ -95,16 +95,28 @@ label {
   cursor: auto;
 }
 
+/* Icon */
+
+i.material-icons {
+  color: inherit;
+}
+
+.button i.material-icons {
+  padding-right: 4px;
+}
+
+/* Icon Link */
+
+.icon-link {
+  display: flex;
+  align-items: center;
+}
+
 /* Fancy Button */
 
 .fancy-button {
   background-color: white;
   color: var(--theme-color-main, #1976d2);
-}
-
-.fancy-button i.material-icons {
-  color: var(--theme-color-main, #1976d2);
-  padding-right: 4px;
 }
 
 /* Top Bar */

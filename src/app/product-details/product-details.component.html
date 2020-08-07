@@ -3,5 +3,11 @@
   <h4>{{ product.price | currency }}</h4>
   <p>{{ product.description }}</p>
 
-  <button (click)="addToCart(product)">Buy</button>
+  <button class="button" (click)="addToCart(product)"><i class="material-icons">add_shopping_cart</i> Add to cart</button>
+
+  <p>
+    <a class="icon-link" title="Products List" routerLink="/">
+      <i class="material-icons">arrow_left</i> Back to product list
+    </a>
+  </p>
 </div>
